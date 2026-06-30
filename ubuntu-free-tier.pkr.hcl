@@ -10,7 +10,7 @@ packer {
 # 1. Variables globales
 variable "aws_region" {
   type    = string
-  default = "us-west-1"
+  default = "us-east-1"
 }
 
 variable "instance_type" {
