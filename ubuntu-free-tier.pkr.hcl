@@ -15,7 +15,7 @@ variable "aws_region" {
 
 variable "instance_type" {
   type    = string
-  default = "t2.micro" # Capa Gratuita (Free Tier)
+  default = "t3.micro" # Capa Gratuita (Free Tier)
 }
 
 # 2. Definición del Origen (Base de la imagen)
